@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990074572511D87A0037CE2C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990074562511D87A0037CE2C /* MapView.swift */; };
 		99B12E2225108AA90044EB4F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B12E2125108AA90044EB4F /* CircleImage.swift */; };
 		99DF15692510791F009913F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DF15682510791F009913F8 /* AppDelegate.swift */; };
 		99DF156B2510791F009913F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DF156A2510791F009913F8 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		990074562511D87A0037CE2C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		99B12E2125108AA90044EB4F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		99DF15652510791F009913F8 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DF15682510791F009913F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				99DF156C2510791F009913F8 /* Landmarks.xcdatamodeld */,
 				99DF157325107920009913F8 /* Preview Content */,
 				99B12E2125108AA90044EB4F /* CircleImage.swift */,
+				990074562511D87A0037CE2C /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99DF15692510791F009913F8 /* AppDelegate.swift in Sources */,
+				990074572511D87A0037CE2C /* MapView.swift in Sources */,
 				99DF156B2510791F009913F8 /* SceneDelegate.swift in Sources */,
 				99DF15702510791F009913F8 /* ContentView.swift in Sources */,
 				99DF156E2510791F009913F8 /* Landmarks.xcdatamodeld in Sources */,
