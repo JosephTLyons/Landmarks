@@ -17,7 +17,7 @@ struct LandmarkList: View {
                     Text("Favorites Only")
                 }
                 
-                ForEach(landmarkData) { landmark in
+                ForEach(userData.landmarks) { landmark in
                     if !self.userData.showFavoritesOnly || landmark.isFavorite {
                         NavigationLink(
                             destination: LandmarkDetail(landmark: landmark)
